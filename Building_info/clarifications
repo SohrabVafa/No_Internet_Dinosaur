@@ -1,0 +1,7 @@
+Robot that plays the google chrome dinosaur game which appears when there is no internet connection.
+
+Down photoresistor should be placed at the ground level and with 2cm aprox. from the dinosaur.
+
+Top photoresistor should be placed at the middle level and exactly over the Down photoresistor.
+
+The servo should be placed over the up and down buttons.
