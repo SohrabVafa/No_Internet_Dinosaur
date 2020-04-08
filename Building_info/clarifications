@@ -5,3 +5,6 @@ Down photoresistor should be placed at the ground level and with 2cm aprox. from
 Top photoresistor should be placed at the middle level and exactly over the Down photoresistor.
 
 The servo should be placed over the up and down buttons.
+
+The photoresistors should be conected to 5V and to a 10KΩ resistor and the resistor to the ground.
+The conection between the photoresistors and the resistor is where should be connected to the pins A0 and A1 for measurement.
