@@ -12,9 +12,7 @@
 
 //Constants
 const int pResistorD = A0;  // Down photoresistor at Arduino analog pin A0.
-                            // It should be placed at the ground level and with 2cm aprox. from the dinosaur.
 const int pResistorT = A1;  // Top photoresistor at Arduino analog pin A1.
-                            // It should be placed at the middle level and exactly over the Down photoresistor.
 const int servoPin = 3;     // Servo at Arduino PWM pin 3.
 const int threshold = 800;  // In my PC the white pixels are detected with 840, and the cactus with 600-750.
 const int upButton = 120;   // servo at 120 degrees presses the up button.
@@ -25,7 +23,6 @@ const int noButton = 90;    // servo at 90 degrees  presses no button.
 int down;         // Stores values from Down photoresistor (0-1023).
 int top;          // Stores values from Top photoresistor (0-1023).
 Servo MyServo;    // Create a servo object.
-                  // The servo should be placed over the up and down buttons.
 
 void setup() {
   pinMode(pResistorD, INPUT);// Set pResistorD - A0 pin as an input.
